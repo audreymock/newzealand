@@ -1,0 +1,84 @@
+body {
+ background-color: #f2ffb8;
+ font-family: 'Raleway', sans-serif;
+ font-size: 20px;
+ margin; 15px;
+ padding: 15px;
+}
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px 2px white;
+  font-family: 'Caveat', cursive;
+  color: #464444;
+  background-size: 150px;
+  background: url("https://zootah.org/wp-content/uploads/2019/02/light-leafy.jpg");
+}
+h2 {
+  text-align: center;
+  font-family: 'Caveat', cursive;
+  color: #464444;
+}
+ul {
+  text-align: justify;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 35px;
+}
+#navigator {
+  text-align: left;
+  margin: 15px;
+  background-color: #f9ffe3;
+  width: 30;
+  padding: 5px;
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+  word-spacing: 10px;
+}
+a:hover {
+  color: darkgrey;
+}
+a {
+  color: #464444;
+  text-decoration: none;
+  font-style: italic;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+img:hover {
+  opacity: 50%;
+}
+table, td, th {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  margin: 0 auto;
+  width: 55%;
+}
+.firsth2 {
+  text-shadow: 2px 2px 2px white;
+}
+@media (max-width: 600px) {
+  body {
+    background-color: thistle;
+    color: white;
+  }
+}
+.jumbotron {
+  background-color: thistle;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:active {
+  color:white;
+}
+h2:first-letter {
+  font-size: 45px;
+}
